@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0 20px 30px 0;
+    line-height: 1.4;
+}
+
+.flex-container{
+
+    display: flex; 
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+
+    flex-wrap:wrap ; 
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    width: 100%;
+    height: 500px;
+    border: 2px solid blue;
+
+    /* ALIGN CONTENT (Treated all the items at a time ). */
+
+    /* align-content:end; */
+    /* align-content:center; */
+    /* align-content: flex-start; */
+
+    /* ALIGN ITEM (individual items )*/
+    /* align-items: center; */
+    /* align-items: baseline; */
+    /* align-items: end; */
+
+    align-content: start;
+
+    flex-flow: wrap;
+
+
+
+
+
+
+}
+
+.flex-item{
+    width: 75px;
+    height: 75px;
+    background-color: lightskyblue;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    line-height: 1.4;
+
+}
+
+#flex-item-1{
+    background-color: aqua;
+    /* flex-basis: 200px; */
+    /* flex-grow: 2; (increase the size of the boxes in 2x speed appart from all other boxes) */
+    /* flex-shrink: 2; (decrese the sizes of the boxes in 2x speed)  */
+
+}
+
+#flex-item-2{
+    background-color: rgb(222, 100, 69);
+    /* align-self: center; */
+    
+}
+
+#flex-item-3{
+    background-color: rgb(29, 54, 54);
+    /* order: 5; */
+}
+
+#flex-item-4{
+    background-color: rgb(226, 14, 184);
+}
+
+#flex-item-5{
+    background-color: rgb(234, 255, 9);
+}
+
+#flex-item-6{
+    background-color: rgb(37, 40, 3);
+    
+}
+
+#flex-item-7{
+    background-color: rgb(82, 4, 79);
+}
+
+#flex-item-8{
+    background-color: rgb(74, 245, 131);
+}
+
+#flex-item-9{
+    background-color: rgb(18, 128, 134);
+}
+
+#flex-item-10{
+    background-color: rgb(204, 11, 130);
+    
+}
