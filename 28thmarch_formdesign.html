@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sample Form</title>
+<link rel="stylesheet" href="28thmarchstyle.css">
+</head>
+<body>
+
+<h2>Sample Form</h2>
+
+<form action="/submit" method="post">
+  <label for="fullname">Full Name:</label>
+  <input type="text" id="fullname" name="fullname" required><br><br>
+  
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+  
+  <label for="birthdate">Date of Birth:</label>
+  <input type="date" id="birthdate" name="birthdate" required><br><br>
+  
+  <label for="country">Country:</label>
+  <select id="gender" name="gender">
+    <option value="india">India</option>
+    <option value="america">America</option>
+    <option value="other">Other</option>
+  </select><br><br>
+
+  <label>Gender:</label>
+  <input type="radio" id="male" name="gender" value="male" required>
+  <label for="male">Male</label>
+  
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label> <br><br>
+  
+  <label>Languages Spoken:</label><br>
+  <input type="checkbox" id="english" name="language" value="english">
+  <label for="english">English</label><br>
+  
+  <input type="checkbox" id="spanish" name="language" value="spanish">
+  <label for="spanish">Spanish</label><br>
+  
+  <input type="checkbox" id="french" name="language" value="french">
+  <label for="french">French</label><br><br>
+  
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+  
+  <input type="submit" value="Submit"><br><br>
+
+  <input type="reset" value="Reset">
+
+  <h3>Designed By Deshapriya Panigrahi</h3>
+</form>
+
+</body>
+</html>
