@@ -4,8 +4,14 @@
     /* grid-template-columns: 1fr 1fr 1fr ; */
     /* grid-template-columns: repeat(3,1fr);  (repeat function only uses in case of grid columns) */
     /* grid-template-rows: 100px 100px 100px;  */
-    grid-template-columns: repeat(3,1fr);
+    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-auto-rows: 100px; */
+    /* grid-auto-columns: 50px; */
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
     grid-gap: 20px;
+    row-gap: 100px;
+    column-gap: 100px;
+
 }
 
 .items{
@@ -13,4 +19,12 @@
     border: 2px solid black;
     border-radius: 2px;
     
+} 
+
+#item-1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
