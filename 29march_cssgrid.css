@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px ; */
+    /* grid-template-columns: 1fr 1fr 1fr ; */
+    /* grid-template-columns: repeat(3,1fr);  (repeat function only uses in case of grid columns) */
+    /* grid-template-rows: 100px 100px 100px;  */
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+
+.items{
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 2px;
+    
+}
