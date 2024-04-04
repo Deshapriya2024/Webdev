@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    text-decoration: teal wavy underline;
+    /* font-family:'Times New Roman', Times, serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#outer {
+    font-size: 25px;
+}
+
+#inner {
+    font-size: 10px;
+}

@@ -1,0 +1,39 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    padding: 100px;
+    margin:50px;
+}
+ */
+
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+
+.navbar{
+    background-color: black;
+    height: 60px;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-right :200px; ;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+#Search{
+    color: white;
+    background-color: #f08804;
+}

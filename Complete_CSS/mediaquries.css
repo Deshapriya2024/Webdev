@@ -1,0 +1,24 @@
+.main{
+    height: 100px;
+    width: 100px;
+    background-color: teal;
+}
+
+@media (width :600px){
+    .main{
+        background-color: yellow;
+    }
+}
+
+@media (min-width :600px){
+    .main{
+        background-color: rgb(158, 0, 243);
+    }
+}
+
+
+@media (min-width :600px) and (max-width : 800px){
+    .main{
+        border-radius: 50%;
+    }
+}

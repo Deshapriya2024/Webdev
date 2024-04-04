@@ -1,0 +1,33 @@
+div{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(165, 230, 230);
+    border: 2px;
+    /* border-style: double;
+    border-color: red;
+    text-align: center; */
+
+    border: 2px solid gray;
+    border-radius: 10px;
+   
+}
+
+
+#d1{
+    background-color: rgb(59, 97, 193);
+    text-align: center;
+    padding: 10px;
+}
+
+
+#d2{
+    background-color: rgb(196, 24, 24);
+    text-align: center;
+    padding:  2px 3px 4px 6px ;
+}
+
+
+#d3{
+    background-color: rgb(125, 199, 34);
+    text-align: center;
+}
