@@ -1,0 +1,9 @@
+#box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+    background-color: blueviolet;
+    color: whitesmoke;
+}
